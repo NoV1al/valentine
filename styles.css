@@ -1,0 +1,70 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #ffe6eb; 
+  font-family: 'Comic Sans MS', cursive, sans-serif; 
+  flex-direction: column;
+}
+
+.container {
+  text-align: center;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border: 3px solid #ffb6c1; 
+}
+
+h1 {
+  font-size: 2.8em;
+  color: #ff4d6d; 
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(255, 77, 109, 0.3);
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.yes-button, .no-button {
+  font-size: 1.5em;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.yes-button {
+  background-color: #ff69b4; 
+  color: white;
+  box-shadow: 0px 4px 10px rgba(255, 105, 180, 0.4);
+}
+
+.no-button {
+  background-color: #ffccd5; 
+  color: #ff4d6d;
+  box-shadow: 0px 4px 10px rgba(255, 77, 109, 0.4);
+}
+
+.yes-button:hover {
+  background-color: #ff1493;
+  transform: scale(1.1);
+}
+
+.no-button:hover {
+  background-color: #ff99aa;
+  transform: scale(1.1);
+}
+
+.gif_container img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 15px;
+  margin-top: 20px;
+  border: 3px solid #ffb6c1;
+}
