@@ -54,16 +54,16 @@
 })();
 */
 const messages = [
-    "Sure kana po darling?",
-    "Ihhh ate kaye naman🥺",
-    "Darling huhuhuhu🥹",
-    "Baby pleaseeee...",
+    "Please??",
+    "Ihhh parang d kapamilya🥺",
+    "Dali na choosy pa ih🥹",
+    "Mudra naman",
     "PLEASEEEEEE!",
     "Maiyak nako dto 🥺🥺",
     "🥺🥺",
     "😭😭",
     "Ok fine hmp ",
-    "joke lng pleaseee kaseee! ❤️"
+    "joke lng pleaseee kaseee! "
 ];
 
 let messageIndex = 0;
